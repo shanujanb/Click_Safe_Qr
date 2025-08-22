@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a237e 60%, #283593 100%);
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.centered {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.header-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  gap: 16px;
+}
+
+.active-tab {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(33, 44, 99, 0.85);
+  border-radius: 16px;
+  padding: 32px 24px;
+  min-width: 320px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.upload-area {
+  border: 2px dashed #1976d2;
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+}
+
+.upload-icon {
+  font-size: 2.5em;
+  color: #1976d2;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.upload-hint {
+  font-size: 0.95em;
+  color: #90caf9;
+  margin-top: 6px;
+}
+
+.camera-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.camera-icon {
+  font-size: 1.3em;
+}
+
+.scanner-area {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.result-card {
+  background: #263238;
+  border-radius: 10px;
+  padding: 18px 16px;
+  margin-top: 12px;
+  color: #fff;
+  font-size: 1em;
+}
+
+.error {
+  color: #ff5252;
+  margin-top: 12px;
+}
+
+.main-header {
+  width: 100%;
+  background: #0d133d;
+  padding: 24px 0 12px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 0;
+}
+
+.logo {
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 2px 8px #28359355;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.watermark {
+  position: fixed;
+  right: 18px;
+  bottom: 12px;
+  font-size: 0.95em;
+  color: #90caf9;
+  opacity: 0.8;
+  z-index: 100;
+  pointer-events: none;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
