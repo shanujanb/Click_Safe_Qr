@@ -160,3 +160,5 @@ async def scan_qr(
 # --- For QR scanning from camera, use 'react-qr-reader' in the frontend.
 # --- For multilingual support, use 'i18next' in the frontend.
 # --- For deployment, use Docker, Railway.app, Render.com, etc.
+
+# Standalone FastAPI backend. Not used by the frontend. You may remove this file if not needed.
